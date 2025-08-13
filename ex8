@@ -1,0 +1,11 @@
+it1 = input("Digite o valor do item 1: ")
+it2 = input("Digite o valor do item 2: ")
+it3 = input("Digite o valor do item 3: ")
+
+it1 = float(it1)
+it2 = float(it2)
+it3 = float(it3)
+
+vt = it1 + it2 + it3
+
+print ("O valor total da compra é de ", vt)

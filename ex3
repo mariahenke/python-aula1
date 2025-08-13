@@ -1,0 +1,9 @@
+po = input("Digite o preço original do produto: ")
+pd = input("Digite o percentual de desconto: ")
+
+po = float(po)
+pd = float(pd)
+
+vd = po - (po * (pd/100))
+
+print ("O valor com desconto é de: ", vd)

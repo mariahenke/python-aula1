@@ -1,0 +1,8 @@
+ht = input("Digite o número de horas trabalhadas: ")
+ht= float(ht)
+vh= input("Digite o valor da hora: ")
+vh= float(vh)
+
+salario_bruto= ht * vh
+
+print ("O salário da semana é de: ", salario_bruto)

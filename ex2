@@ -1,0 +1,7 @@
+tc = input("Digite a temperatura em celsius: ")
+tc = float(tc)
+
+tf = 77
+tf = tc * 1.8 +32
+
+print("A temperatura convertida em fahrenheit é de: ", tf)

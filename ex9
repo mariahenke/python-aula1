@@ -1,0 +1,10 @@
+n1 = input("Digite o primeiro número: ")
+n2 = input("Digite o segundo número: ")
+
+n1=float(n1)
+n2=float(n2)
+
+soma = n1+n2
+prod= n1*n2
+
+print ("Soma:", soma,"\nProduto:",prod)

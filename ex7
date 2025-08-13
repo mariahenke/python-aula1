@@ -1,0 +1,6 @@
+idade = input("Digite sua idade: ")
+idade = int(idade)
+
+dias = idade * 365
+
+print("Você viveu aproximadamente ", dias, "dias")

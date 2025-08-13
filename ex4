@@ -1,0 +1,9 @@
+dp = input("Digite a distância (km): ")
+cl = input("Digite o consumo (km/l): ")
+
+dp = float(dp)
+cl = float(cl)
+
+consumo = dp/cl
+
+print ("Você vai precisar de ", consumo, "litros de gasolina")

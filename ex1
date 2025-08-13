@@ -1,0 +1,9 @@
+raio = input("Digite o valor do raio: ")
+raio = float(raio)
+
+
+pi = 3.1416
+a= pi * (raio**2)
+
+print("Área do círculo: ", a)
+
